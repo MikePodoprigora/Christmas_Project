@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Submit</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+</head>
+<body class="submit_page">
+<header class="header">
+    <a href="index.html">
+        <img src="img/christmas_tree_PNG95.fw.png" alt="" class="logo">
+    </a>
+    <div>
+        <h1 class="front_name" style="font-family: 'Mountains of Christmas', cursive;"> Christmas Holidays </h1>
+    </div>
+
+    <nav>
+        <ul class="buttons">
+            <li><a href="index.html" class="button1">Home</a></li>
+            <li class="dropdown"><a href="#" class="button2">Menu</a>
+                <ul class="dropdown-content">
+                    <li><a href="index_page1.html">Active</a></li>
+                    <li><a href="index_page2.html">Spa</a></li>
+                    <li><a href="index_page3.html">Workshop</a></li>
+                </ul>
+            </li>
+            <li><a href="Legal/about.html" class="button3">About</a></li>
+            <li><a href="Legal/contact.html" class="button4">Contact us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="about-text" style="font-family: 'Mountains of Christmas', cursive; padding-top: 20px;">Order it</div>
+
+<div class="input_submit">
+    <form style="display: flex">
+        <div class="checkbox">
+            <label><input type="checkbox"><strong>Active</strong></label>
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox"><strong>Spa</strong></label>
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox"><strong>Work shop</strong></label>
+        </div>
+    </form>
+
+    <br>
+
+    <form id="register" method="get" action="process-form.php" style="color: white">
+        <label for="fname">First name:</label><br>
+        <input type="text" name="fname" id="fname" required maxlength="50">
+        <br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" name="lname" id="lname" required maxlength="50">
+        <br>
+        <label for="e-mail">e-mail:</label><br>
+        <input type="text" name="e-mail" id="e-mail" required>
+        <br>
+        <label for="phone">Phone number:</label><br>
+        <input type="tel" name="phone" id="phone" required>
+        <br>
+        Number of Guests:<br>
+        <select name="amount" id=amount" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <br>
+        Date:<br>
+        <input type="date" name="date" required>
+        <br><br>
+
+        <input type="submit" name="Button" value="Submit" id="submit_button" required>
+
+    </form>
+</div>
+
+<div class="container" style="margin-top: 5px;">
+    <div class="footer">
+        <div class="nav1">
+            <p class="gifts">© 2019 Christmas holidays. All rights reserved</p>
+            <a href="Legal/privacy.html" class="privacy_link">
+                <small>Privacy</small></a>
+            <p id="created_by">Created by Maria Vodovoz</p>
+
+
+            <div class="icons">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="img/facebook_icon.png" alt="facebook">
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="img/instagram_icon.png" alt="instagram">
+                </a>
+                <a href="https://twitter.com/" target="_blank">
+                    <img src="img/twitter_icon.png" alt="twitter">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="img/linkedin_icon.png" alt="linkedin">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="img/youtube_icon.png" alt="youtube">
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+</html>

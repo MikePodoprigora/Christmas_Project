@@ -1,0 +1,353 @@
+body {
+
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
+}
+
+.home_page {
+    background-image: url("../img/christmas-1911637_1920.jpg");
+
+}
+
+.page1 {
+    background-image: url("../img/active.jpg");
+}
+
+.page2 {
+    background-image: url("../img/spa.jpg");
+}
+
+.page3 {
+    background-image: url("../img/work_shop.jpg");
+}
+
+.body_privacy {
+    background-image: url("../img/christmas-1911637_1920.jpg");
+}
+
+.body_about {
+    background-image: url("../img/christmas-1911637_1920.jpg");
+}
+
+.body_contact {
+    background-image: url("../img/christmas-1911637_1920.jpg");
+}
+
+.submit_page {
+    background-image: url("../img/christmas-1911637_1920.jpg");
+}
+.thank_you{
+    background-image: url("../img/christmas-1911637_1920.jpg");
+}
+
+
+.header {
+    border-radius: 25px;
+    height: 97px;
+    background: rgb(255, 0, 0);
+    background: rgba(255, 0, 0, 0.7);
+    display: flex;
+    width: 100%;
+    position: relative;
+
+
+}
+
+.logo {
+    margin-left: 10px;
+    position: absolute;
+}
+
+.front_name {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: white;
+    padding-left: 100px;
+}
+
+nav {
+    position: absolute;
+    margin-left: 100px;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+}
+
+.buttons {
+    margin-top: 55px;
+    margin-left: 720px;
+    position: relative;
+
+
+}
+
+.button1 {
+    color: white;
+    background: forestgreen;
+    border: 1px solid forestgreen;
+    border-radius: 100px;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.button1:hover {
+    background: lime;
+    border: 1px solid lime;
+    border-radius: 100px;
+    color: white;
+}
+
+.button2 {
+    margin-left: 5px;
+    color: white;
+    background: forestgreen;
+    border: 1px solid forestgreen;
+    border-radius: 100px;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.button2:hover {
+    background: lime;
+    border: 1px solid lime;
+    border-radius: 100px;
+    color: white;
+}
+
+.button3 {
+    margin-top: 20px;
+    margin-left: 5px;
+    color: white;
+    background: forestgreen;
+    border: 1px solid forestgreen;
+    border-radius: 100px;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.button3:hover {
+    background: lime;
+    border: 1px solid lime;
+    border-radius: 100px;
+    color: white;
+}
+
+.button4 {
+    margin-top: 20px;
+    margin-left: 5px;
+    color: white;
+    background: forestgreen;
+    border: 1px solid forestgreen;
+    border-radius: 100px;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.button4:hover {
+    background: lime;
+    border: 1px solid lime;
+    border-radius: 100px;
+    color: white;
+}
+
+.main_text {
+
+}
+
+.description {
+    width: 70%;
+    color: white;
+    margin-left: 220px;
+    font-size: 18px;
+    text-align: center;
+}
+
+label{
+    color: white;
+}
+
+.input_submit {
+    margin-left: 580px;;
+}
+
+#submit_button {
+    padding: 8px 16px;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    border-color: crimson;
+    width: 160px;
+}
+
+#submit_button:hover {
+    color: white;
+    background: crimson;
+    border-radius: 15px;
+}
+
+.order {
+    margin-left: 40%;;
+}
+
+#order_button {
+    padding: 8px 16px;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    border-color: crimson;
+    width: 300px;
+}
+
+#order_button:hover {
+    color: white;
+    background: crimson;
+    border-radius: 15px;
+}
+
+.middle_part {
+    display: flex;
+}
+
+.image1 {
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 200px;
+    border: 7px solid white;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.image1_name {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image2 {
+    height: 200px;
+    margin-right: 20px;
+    border: 7px solid white;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.image2_name {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image3 {
+    height: 200px;
+    border: 7px solid white;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.image3_name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer {
+    color: white;
+    border-radius: 17px;
+    height: 50px;
+    background: rgb(255, 0, 0);
+    background: rgba(255, 0, 0, 0.7);
+    position: relative;
+}
+
+.gifts {
+    margin-left: 15px;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.icons {
+    margin-left: 230px;
+}
+
+.privacy_link {
+    font-family: "Cambria Math";
+    color: black;
+    margin-left: 5px;
+
+}
+
+.about-text {
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    padding-top: 70px;
+}
+
+
+.contact-text {
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    padding-top: 70px;
+}
+
+#created_by {
+    margin-left: 250px;
+}
+
+
+/* dropdown function */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    margin-top: 15px;
+    display: none;
+    position: absolute;
+    background-color: lightcoral;
+    border-radius: 20px;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+
+.dropdown-content a {
+    border-radius: 30px;
+    color: black;
+    padding: 11px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content a:hover {
+    background-color: lightgreen
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
